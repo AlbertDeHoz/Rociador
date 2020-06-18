@@ -1,0 +1,10 @@
+Este programa esta diseñado para una maquina de rocio activada por un sensor de proximidad
+
+Esta compuesto por una entrada (pin 2) y una salida (pin 4)
+la entrada comprende un sensor digital, para este caso se ha probado con un sensor infrarrojo
+la salida comprende un relé para la activación de una bomba o una válvula
+
+La válvula se activa al mantener en alto (HIGH) el sensor digital durante unos 3 segundos
+pasado este tiempo se mantiene una espera de 3 segundos hasta que se active el relé
+el relé se activa durante unos 5 segundos
+posterior a esto el sistema se reinicia.
